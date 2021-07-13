@@ -1,11 +1,12 @@
-import React from 'react';
+import './styles/index.css'
 
-function App() {
-  return (
-    <div className="App">
-      Start
-    </div>
-  );
+import React from 'react';
+import Sidebar from './components/Sidebar';
+
+const App: React.FunctionComponent = () => {
+  return <div className="App">
+    <Sidebar />
+  </div>
 }
 
 export default App;
