@@ -1,23 +1,21 @@
 #sidebar {
-    margin-left: 10rem;
+    margin-left: 10%;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     background: #7a7d81ef;
-    cursor: default;
     height: 100%;
+    width: 10%;
     left: 0;
     top: 0;
-    position: fixed;
+    position: absolute;
     text-align: right;
-    width: 11rem;
 }
 
-.inner {
+.sidebar-inner {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: opacity 1s ease;
 }
 
 #sidebar nav > ul {
@@ -26,12 +24,12 @@
 }
 
 #sidebar nav > ul > li {
-    margin: 1.5em 0 0 0;
+    margin: 2.2rem 0 0 0;
     position: relative;
 }
 
 #sidebar nav a {
-    transition: color 0.2s ease;
+    transition: color 0.5s ease;
     color: rgba(0, 25, 251, 0.424);
     display: block;
     font-size: 0.7rem;
@@ -45,11 +43,11 @@
 #sidebar nav a:before, #sidebar nav a:after {
     border-radius: 0.25em;
     bottom: 0;
+    right: 0;
     content: '';
+    width: 100%;
     height: 0.25em;
     position: absolute;
-    right: 0;
-    width: 100%;
 }
 
 #sidebar nav a:before {
