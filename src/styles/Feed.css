@@ -1,7 +1,7 @@
 .feed-wrapper {
+    position: absolute;
     margin-left: 25%;
-    height: 100vh;
+    height: 100%;
     width: 50%;
-    display: flex;
-    flex-direction: column;
+    top: 0;
 }

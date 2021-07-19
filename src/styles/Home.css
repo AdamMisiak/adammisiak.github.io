@@ -8,11 +8,13 @@
     justify-content: center;
 }
 
-.home-photo {
-    border-radius: 50%;
-}
-
 .home-sign-wrapper {
+    position: relative;
+    top: -12%;
     color: steelblue;
     text-align: center;
+}
+
+.home-sign-wrapper > h1 {
+    font-size: 30px;
 }

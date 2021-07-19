@@ -2,12 +2,12 @@
     margin-left: 10%;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    background: #7a7d81ef;
+    background: #9d9fa1ef;
     height: 100%;
     width: 10%;
     left: 0;
     top: 0;
-    position: absolute;
+    position: fixed;
     text-align: right;
 }
 
