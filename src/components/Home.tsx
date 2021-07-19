@@ -5,10 +5,12 @@ import React from "react";
 const Home: React.FunctionComponent = () => {
   return (
     <section id="home">
-      <div className="home-inner">
-        HELLO, MY NAME IS ADAM
+      <div className="home-wrapper">
+        <div className="home-sign">
+          HELLO, MY NAME IS ADAM
+        </div>
       </div>
-  </section>
+    </section>
   );
 };
 
