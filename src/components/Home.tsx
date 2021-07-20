@@ -9,7 +9,7 @@ const Home: React.FunctionComponent = () => {
     const writer: any = document.querySelector("#writer");
     init(writer, {
       showCursor: true,
-      strings: ["Python", "Django", "Typescript"]
+      strings: ["Python", "Django", "Postgres", "Typescript"]
     });
   });
 
