@@ -16,5 +16,9 @@
 }
 
 .home-sign-wrapper > h1 {
-    font-size: 30px;
+    font-size: 45px;
+}
+
+.home-sign-wrapper > p {
+    font-size: 25px;
 }
