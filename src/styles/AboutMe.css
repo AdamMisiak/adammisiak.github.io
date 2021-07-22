@@ -6,6 +6,7 @@
     width: 100%;
     padding: 2.5rem;
     box-sizing: border-box;
+    margin-top: 7rem;
 }
 
 .about-me-text {
@@ -41,4 +42,28 @@
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+}
+
+.timeline-wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    position: relative;
+}
+
+.timeline-wrapper ul {
+    list-style: none;
+}
+
+.timeline-wrapper ul li {
+    padding: 20px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline-wrapper ul li:last-child {
+    margin-bottom: 0;
 }

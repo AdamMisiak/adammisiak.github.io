@@ -16,6 +16,28 @@ const AboutMe: React.FunctionComponent = () => {
           <img className="about-me-photo" src={avatar} alt="Avatar"></img>
         </div>
       </div>
+      <div className="timeline-wrapper">
+        <ul>
+          <li>
+            <div className="timeline-content">
+              <h1>HEADING 1</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
+            </div>
+          </li>
+          <li>
+            <div className="timeline-content">
+              <h1>HEADING 2</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
+            </div>
+          </li>
+          <li>
+            <div className="timeline-content">
+              <h1>HEADING 3</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
