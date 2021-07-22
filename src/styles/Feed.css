@@ -1,7 +1,9 @@
 .feed-wrapper {
     position: absolute;
-    margin-left: 25%;
     height: 100%;
-    width: 50%;
+    width: 100%;
+    box-sizing: border-box;
     top: 0;
+    left: 0;
+    padding: 0% 14%;
 }

@@ -1,4 +1,4 @@
-import '../styles/Sidebar.css'
+import '../styles/AboutMe.css'
 
 import React from "react";
 import avatar from '../static/avatar.jpg';
@@ -6,8 +6,14 @@ import avatar from '../static/avatar.jpg';
 const AboutMe: React.FunctionComponent = () => {
   return (
     <section id="about-me">
-      <div className="home-photo-wrapper">
-        <img className="home-photo" src={avatar} alt="Avatar"></img>
+      <div className="about-me-wrapper">
+        <div className="about-me-text">
+          <h1>About Me</h1>
+          <p>Software Developer</p>
+        </div>
+        <div className="about-me-photo">
+          <img src={avatar} alt="Avatar"></img>
+        </div>
       </div>
     </section>
   );

@@ -6,8 +6,10 @@ import Sidebar from './components/Sidebar';
 
 const App: React.FunctionComponent = () => {
   return <div className="App">
-    <Sidebar />
-    <Feed />
+    <div className="wrapper">
+      <Sidebar />
+      <Feed />
+    </div>
   </div>
 }
 
