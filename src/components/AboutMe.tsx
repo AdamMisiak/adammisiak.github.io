@@ -11,8 +11,8 @@ const AboutMe: React.FunctionComponent = () => {
           <h1>About Me</h1>
           <p>Software Developer</p>
         </div>
-        <div className="about-me-photo">
-          <img src={avatar} alt="Avatar"></img>
+        <div className="about-me-photo-wrapper">
+          <img className="about-me-photo" src={avatar} alt="Avatar"></img>
         </div>
       </div>
     </section>

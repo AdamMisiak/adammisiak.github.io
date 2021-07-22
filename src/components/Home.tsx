@@ -11,7 +11,7 @@ const Home: React.FunctionComponent = () => {
     const writer: any = document.querySelector("#writer");
     init(writer, {
       showCursor: true,
-      strings: ["Python", "Django", "PostgreSQL", "Typescript"]
+      strings: ["Django", "React", "Docker", "Postgres", "Linux"]
     });
   });
 
@@ -21,7 +21,7 @@ const Home: React.FunctionComponent = () => {
       <div className="home-wrapper">
         <div className="home-signs">
           <h1>I am Adam Misiak</h1>
-          <p>Backend Developer located in Gdańsk.</p>
+          <p>Full-Stack Developer located in Gdańsk.</p>
           <p>Specialized in <span id="writer"></span></p>
         </div>
         <div className="home-icons">

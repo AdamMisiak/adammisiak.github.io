@@ -1,11 +1,16 @@
 .about-me-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 2.5rem;
+    box-sizing: border-box;
 }
 
 .about-me-text {
-    flex-grow: 2;
+    flex-grow: 1.5;
+    color: steelblue;
 }
 
 .about-me-text > h1 {
@@ -18,7 +23,13 @@
     font-size: 20px;
 }
 
-.about-me-photo {
-    text-align: center;
+.about-me-photo-wrapper {
     flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.about-me-photo {   
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
