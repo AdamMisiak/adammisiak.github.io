@@ -9,14 +9,21 @@
 }
 
 .about-me-text {
-    flex-grow: 1.5;
     color: steelblue;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
 }
 
-.about-me-text > h1 {
+.about-me-title {
     font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1%;
+}
+
+.about-me-subtitle {
+    margin-top: 1%;
+    font-size: 20px;
 }
 
 .about-me-text > p {
@@ -24,8 +31,10 @@
 }
 
 .about-me-photo-wrapper {
-    flex-grow: 1;
+    padding: 1rem;
     box-sizing: border-box;
+    width: 80%;
+    height: 80%;
 }
 
 .about-me-photo {   
