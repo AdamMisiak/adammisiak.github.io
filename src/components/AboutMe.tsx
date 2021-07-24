@@ -4,21 +4,27 @@ import React from "react";
 import TimelineObject from './TimelineObject';
 import avatar from '../static/avatar.jpg';
 
+// style sidebar i timeline zrobic z px a nie % zeby respnnsywnosc byla ok
 const timelineObjects = [
+  {
+    'date': 'May 2021 - present',
+    'title': 'Junior Python Developer @ iMakeable',
+    'text': "Technologies used:",
+  },
+  {
+    'date': 'October 2020 - present',
+    'title': 'Junior Python Developer @ The BitByBit Company',
+    'text': "Technologies used:",
+  },
+  {
+    'date': 'July 2019 - August 2020',
+    'title': 'PLC Programmer @ Pesmel Poland',
+    'text': "Technologies used:",
+  },
   {
     'date': 'October 2016 - February 2020',
     'title': 'Gdańsk University of Technology',
     'text': "Graduated with engineer degree in Automatic Control and Robotics with 4.5 degree. Topic of my thesis was: Unmanned wheeled eletric vehicle.",
-  },
-  {
-    'date': 'May 2020 - June 2021',
-    'title': 'Header 1',
-    'text': 'test text',
-  },
-  {
-    'date': 'May 2020 - June 2021',
-    'title': 'Header 1',
-    'text': 'test text',
   },
 ]
 
