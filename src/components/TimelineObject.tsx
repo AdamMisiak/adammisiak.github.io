@@ -9,7 +9,7 @@ interface TimelineObjectProps {
 }
 
 const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: TimelineObjectProps) => {
-  return (
+    return (
     <li>
         <div className="timeline-content">
             <h2 className="timeline-date">{props.date}</h2>

@@ -1,7 +1,26 @@
 import '../styles/AboutMe.css'
 
 import React from "react";
+import TimelineObject from './TimelineObject';
 import avatar from '../static/avatar.jpg';
+
+const timelineObjects = [
+  {
+    'date': 'October 2016 - February 2020',
+    'title': 'Gdańsk University of Technology',
+    'text': "Graduated with engineer degree in Automatic Control and Robotics with 4.5 degree. Topic of my thesis was: Unmanned wheeled eletric vehicle.",
+  },
+  {
+    'date': 'May 2020 - June 2021',
+    'title': 'Header 1',
+    'text': 'test text',
+  },
+  {
+    'date': 'May 2020 - June 2021',
+    'title': 'Header 1',
+    'text': 'test text',
+  },
+]
 
 const AboutMe: React.FunctionComponent = () => {
   return (
@@ -18,34 +37,9 @@ const AboutMe: React.FunctionComponent = () => {
       </div>
       <div className="timeline-wrapper">
         <ul>
-          <li>
-            <div className="timeline-content">
-              <h2 className="timeline-date">May 2021 - June 2021</h2>
-              <h1>HEADING 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
-            </div>
-          </li>
-          <li>
-            <div className="timeline-content">
-              <h2 className="timeline-date">May 2021 - June 2021</h2>
-              <h1>HEADING 2</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
-            </div>
-          </li>
-          <li>
-            <div className="timeline-content">
-              <h2 className="timeline-date">May 2021 - June 2021</h2>
-              <h1>HEADING 3</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
-            </div>
-          </li>
-          <li>
-            <div className="timeline-content">
-              <h2 className="timeline-date">May 2021 - June 2021</h2>
-              <h1>HEADING 4</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
-            </div>
-          </li>
+          {timelineObjects.map((object) => {
+            return <TimelineObject {...object} />
+          })}
         </ul>
       </div>
     </section>

@@ -54,7 +54,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    /* padding: 2.5rem; */
+    margin-top: 2.5rem;
 }
 
 .timeline-wrapper ul {
@@ -78,9 +78,10 @@
 }
 
 .timeline-content h1 {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 400;
     line-height: 30px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
