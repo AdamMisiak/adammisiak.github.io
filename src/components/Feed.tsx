@@ -10,7 +10,7 @@ const Feed: React.FunctionComponent = () => {
       <div className="feed-wrapper">
         <Home />
         <AboutMe />
-        {/* <Services /> */}
+        <Services />
       </div>
   );
 };

@@ -63,10 +63,14 @@
 
 .timeline-wrapper ul li {
     padding: 20px;
-    background-color: rgb(59, 59, 59);
+    background-color: steelblue;
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.timeline-wrapper ul li:first-child {
+    margin-top: 0;
 }
 
 .timeline-wrapper ul li:last-child {
@@ -86,6 +90,14 @@
     font-weight: 300;
 }
 
+.timeline-date {
+    color: steelblue;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
 @media only screen and (min-width: 768px) {
     .timeline-wrapper::before {
         content: '';
@@ -93,24 +105,56 @@
         height: 100%;
         width: 2px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-100%);
         background-color: gray;
+        margin-top: 2%
     }
     
     .timeline-wrapper ul li {
-        width: 43%;
-        margin-bottom: 50px;
+        width: 44%;
+        margin-bottom: 60px;
         position: relative;
     }
 
     .timeline-wrapper ul li:nth-child(odd){
         float: left;
         clear: right;
+        border-radius: 20px 0px 20px 20px;
     }
 
     .timeline-wrapper ul li:nth-child(even){
-        margin-right: 2.5rem;
+        margin-right: 2.6rem;
         float: right;
         clear: left;
+        border-radius: 0px 20px 20px 20px;
     } 
+
+    .timeline-wrapper ul li::after {
+        content: '';
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        background-color: gray;
+        border-radius: 50%;
+        top: 0;
+    }
+
+    .timeline-wrapper ul li:nth-child(odd)::after{
+        transform: translate(50%, -50%);
+        right: -3%;
+    }
+
+    .timeline-wrapper ul li:nth-child(even)::after{
+        transform: translate(-50%, -50%);
+        left: -3%;
+    }
+
+    .timeline-wrapper ul li:hover:after {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .timeline-date {
+        position: absolute;
+        top: -30px;
+    }
 }
