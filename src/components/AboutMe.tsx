@@ -36,6 +36,12 @@ const AboutMe: React.FunctionComponent = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
             </div>
           </li>
+          <li>
+            <div className="timeline-content">
+              <h1>HEADING 4</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque iure quas doloremque blanditiis qui eveniet inventore, alias assumenda est.</p>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
