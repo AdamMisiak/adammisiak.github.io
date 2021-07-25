@@ -6,3 +6,30 @@
     color: steelblue;
     text-align: center;
 }
+
+.services-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-element {
+    border: 2px solid #f3f1f1;
+    text-align: center;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    width: 350px;
+    transition: all .3s ease-in-out;
+}
+
+.services-element:hover {
+    border: 2px solid #f3f1f1;
+    transform: scale(1.01);
+}
+
+.services-element h1 {
+    color: steelblue;
+    font-size: 30px;
+}
