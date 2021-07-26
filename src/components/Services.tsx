@@ -1,8 +1,43 @@
 import '../styles/Services.css'
 
 import React from "react";
+import ServiceObject from './ServiceObject';
 
 const Services: React.FunctionComponent = () => {
+  const servicesObjects = [
+    {
+      'title': 'Frontend Development',
+      'image': '',
+      'text': 'Creating frontend for apps',
+    },
+    {
+      'title': 'Backend Development',
+      'image': '',
+      'text': '',
+    },
+    {
+      'title': 'Software Testing',
+      'image': '',
+      'text': '',
+    },
+    {
+      'title': 'Script Automation',
+      'image': '',
+      'text': '',
+    },
+    {
+      'title': 'Database Desigining',
+      'image': '',
+      'text': '',
+    },
+    {
+      'title': 'Query Optimization',
+      'image': '',
+      'text': '',
+    },
+
+  ]
+  
   return (
     <section id="services">
       <div className="services-wrapper">
@@ -11,15 +46,9 @@ const Services: React.FunctionComponent = () => {
           <p>Things that I specilize in:</p>
         </div>
         <div className="services-list">
-          <div className="services-element">
-            <h1>Frontend Development</h1>
-          </div>
-          <div className="services-element">
-            <h1>Backend Development</h1>
-          </div>
-          <div className="services-element">
-            <h1>Scripts Automation</h1>
-          </div>
+          {servicesObjects.map((object) => {
+            return <ServiceObject {...object} />
+          })}
         </div>
       </div>
     </section>
