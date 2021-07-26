@@ -1,12 +1,15 @@
 import '../styles/Services.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from "react";
 import ServiceObject from './ServiceObject';
+import { faCubes } from '@fortawesome/free-solid-svg-icons'
 
 const Services: React.FunctionComponent = () => {
   const servicesObjects = [
     {
       'title': 'Frontend Development',
+      // <FontAwesomeIcon className="circle" icon={faCubes} />
       'image': '',
       'text': 'Creating frontend for apps',
     },
