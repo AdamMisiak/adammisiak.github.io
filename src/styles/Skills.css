@@ -39,3 +39,15 @@
 .postgresql:hover {
     color: blue;
 }
+
+.docker:hover {
+    color: steelblue;
+}
+
+.git:hover {
+    color: rgb(189, 50, 50);
+}
+
+.celery:hover {
+    color: green;
+}

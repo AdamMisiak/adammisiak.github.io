@@ -1,7 +1,8 @@
 import '../styles/Skills.css'
 
-import { Django, Postgresql, Python } from '@styled-icons/simple-icons';
+import { Celery, Django, Docker, Postgresql, Python } from '@styled-icons/simple-icons';
 
+import { Git } from '@styled-icons/boxicons-logos';
 import React from "react";
 import SkillObject from './SkillObject';
 
@@ -18,6 +19,18 @@ const Skills: React.FunctionComponent = () => {
     {
       "icon": <Postgresql size="70px"/>,
       "name": "postgresql" 
+    },
+    {
+      "icon": <Docker size="70px"/>,
+      "name": "docker"
+    },
+    {
+      "icon": <Git size="70px"/>,
+      "name": "git" 
+    },
+    {
+      "icon": <Celery size="70px"/>,
+      "name": "celery" 
     },
   ]
   
