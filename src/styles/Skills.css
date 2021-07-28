@@ -1,0 +1,41 @@
+.skills-wrapper {
+    margin: 7rem 2.5rem 0 2.5rem;
+}
+
+.skills-sign {
+    color: steelblue;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-element {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 200px;
+    transition: all .2s ease-in-out;
+    color: gray;
+}
+
+.skills-element:hover {
+    transform: scale(1.015);
+}
+
+.python:hover {
+    color: steelblue;
+}
+
+.django:hover {
+    color: green;
+}
+
+.postgresql:hover {
+    color: blue;
+}

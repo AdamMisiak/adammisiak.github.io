@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import Home from './Home';
 import React from "react";
 import Services from './Services';
+import Skills from './Skills';
 
 const Feed: React.FunctionComponent = () => {
   return (
@@ -11,6 +12,7 @@ const Feed: React.FunctionComponent = () => {
         <Home />
         <AboutMe />
         <Services />
+        <Skills />
       </div>
   );
 };

@@ -1,9 +1,12 @@
 import '../styles/Services.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from "react";
 import ServiceObject from './ServiceObject';
-import { faCubes } from '@fortawesome/free-solid-svg-icons'
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+// import { faCubes } from '@fortawesome/free-solid-svg-icons'
 
 const Services: React.FunctionComponent = () => {
   const servicesObjects = [
