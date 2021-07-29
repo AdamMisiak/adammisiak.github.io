@@ -29,25 +29,61 @@
 }
 
 .python:hover {
-    color: steelblue;
+    color: #4B8BBE;
 }
 
 .django:hover {
-    color: green;
-}
-
-.postgresql:hover {
-    color: blue;
-}
-
-.docker:hover {
-    color: steelblue;
-}
-
-.git:hover {
-    color: rgb(189, 50, 50);
+    color: #092E20;
 }
 
 .celery:hover {
-    color: green;
+    color: #9DCE5C;
+}
+
+.postgresql:hover {
+    color: #0064a5;
+}
+
+.elasticsearch:hover {
+    color: #66b5ae;
+}
+
+.docker:hover {
+    color: #0db7ed;
+}
+
+.html5:hover {
+    color: #e34c26;
+}
+
+.css3:hover {
+    color: #2965f1;
+}
+
+.javascript:hover {
+    color: #F0DB4F;
+}
+
+.typescript:hover {
+    color: #3178C6;
+}
+
+.react:hover {
+    color: #61DBFB;
+}
+
+.bootstrap:hover {
+    color: #080135;
+}
+
+.git:hover {
+    color: #F1502F;
+}
+
+.linux:hover {
+    color: #333333;
+}
+
+.heroku:hover {
+    color: #6762A6;
 }
