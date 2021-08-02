@@ -7,9 +7,45 @@
     text-align: center;
 }
 
+
 .projects-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.projects-element {
+    border: 2px solid #f3f1f1;
+    text-align: center;
+    margin: 2.5rem;
+    box-sizing: border-box;
+    width: 450px;
+    transition: all .2s ease-in-out;
+}
+
+.projects-element:hover {
+    transform: scale(1.015);
+}
+
+.projects-photo-wrapper {
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+}
+
+.projects-photo {
+    filter: grayscale(20%);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.projects-text-wrapper {
+    /* padding: 2.5rem; */
+}
+
+.projects-element h1{
+    font-size: 20px;
 }

@@ -9,7 +9,7 @@ const Sidebar: React.FunctionComponent = () => {
         <nav>
           <ul>
             <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#about-me">ABOUT ME</a></li>
             <li><a href="#services">SERVICES</a></li>
             <li><a href="#skills">SKILLS</a></li>
             <li><a href="#projects">PROJECTS</a></li>
