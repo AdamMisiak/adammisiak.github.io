@@ -1,0 +1,15 @@
+.projects-wrapper {
+    margin: 7rem 2.5rem 0 2.5rem;
+}
+
+.projects-sign {
+    color: steelblue;
+    text-align: center;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

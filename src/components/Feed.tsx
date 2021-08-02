@@ -5,6 +5,8 @@ import Home from './Home';
 import React from "react";
 import Services from './Services';
 import Skills from './Skills';
+import Projects from './Projects';
+
 
 const Feed: React.FunctionComponent = () => {
   return (
@@ -13,6 +15,7 @@ const Feed: React.FunctionComponent = () => {
         <AboutMe />
         <Services />
         <Skills />
+        <Projects />
       </div>
   );
 };
