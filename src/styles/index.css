@@ -5,6 +5,14 @@ body {
     font-weight: normal;
 }
 
+a:focus {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 .wrapper {
     box-sizing: border-box;
 }
