@@ -21,6 +21,7 @@
     margin: 2.5rem;
     box-sizing: border-box;
     width: 500px;
+    position: relative;
 }
 
 .projects-photo-wrapper {
@@ -44,9 +45,20 @@
     opacity: 0.5;
 }
 
-/* .projects-text-wrapper { */
-    /* padding: 2.5rem; */
-/* } */
+.projects-text-wrapper {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: steelblue;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+
+.projects-photo-wrapper:hover ~ .projects-text-wrapper {
+    opacity: 1;
+}
 
 .projects-element h1{
     font-size: 20px;

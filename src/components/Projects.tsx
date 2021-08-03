@@ -22,7 +22,6 @@ const Projects: React.FunctionComponent = () => {
                     <h1>Blogs Manager</h1>
                 </div>
             </div>
-            {/* dodac pojawiacy sie napis jak sie najedzie na projekt  */}
         </div>
       </div>
     </section>
