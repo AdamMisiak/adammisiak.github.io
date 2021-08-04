@@ -5,7 +5,7 @@ import React from "react";
 const Sidebar: React.FunctionComponent = () => {
   return (
     <section id="sidebar">
-      <div className="sidebar-inner">
+      <div className="sidebar-wrapper">
         <nav>
           <ul>
             <li><a href="#home">HOME</a></li>
