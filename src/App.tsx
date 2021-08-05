@@ -11,6 +11,7 @@ const App: React.FunctionComponent = () => {
   useEffect(() => {
     Aos.init({duration: 1500});
   })
+  window.addEventListener('load', Aos.refresh)
   return <div className="App">
     <div className="wrapper">
       <Sidebar />

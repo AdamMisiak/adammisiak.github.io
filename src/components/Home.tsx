@@ -11,7 +11,7 @@ const Home: React.FunctionComponent = () => {
     const writer: any = document.querySelector("#writer");
     init(writer, {
       showCursor: true,
-      strings: ["Django", "React", "Docker", "Postgres", "Linux", "Rest Api"]
+      strings: ["React", "Django", "Docker", "Postgres", "Linux", "Rest Api"]
     });
   });
 
@@ -19,12 +19,12 @@ const Home: React.FunctionComponent = () => {
   return (
     <section id="home">
       <div className="home-wrapper">
-        <div className="home-signs">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" className="home-signs">
           <h1>I am Adam Misiak</h1>
           <p>Full-Stack Developer located in Gdańsk.</p>
           <p>Specialized in <span id="writer"></span></p>
         </div>
-        <div className="home-icons">
+        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000" className="home-icons">
           <a href="https://github.com/AdamMisiak" target="_blank" rel="noreferrer" className="home-icon-single">
             <FontAwesomeIcon className="circle" icon={faGithub} />
           </a>

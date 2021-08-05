@@ -1,3 +1,4 @@
+/* DESCRIPTION */
 .about-me-wrapper {
     display: flex;
     flex-direction: row;
@@ -20,11 +21,11 @@
 
 .about-me-title {
     font-size: 40px;
-    margin-bottom: 1%;
+    margin-bottom: 7px;
 }
 
 .about-me-subtitle {
-    margin-top: 1%;
+    margin-top: 7px;
     font-size: 20px;
 }
 
@@ -138,6 +139,7 @@
         background-color: gray;
         border-radius: 50%;
         top: 0;
+        transition: background-color 0.5s ease;
     }
 
     .timeline-wrapper ul li:nth-child(odd)::before{
@@ -151,7 +153,8 @@
     }
 
     .timeline-wrapper ul li:hover:before {
-        background-color: rgb(0, 0, 0);
+        background-color: steelblue;
+        transition: background-color 0.5s ease;
     }
 
     .timeline-date {
