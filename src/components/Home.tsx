@@ -11,7 +11,7 @@ const Home: React.FunctionComponent = () => {
     const writer: any = document.querySelector("#writer");
     init(writer, {
       showCursor: true,
-      strings: ["Django", "React", "Docker", "Postgres", "Linux"]
+      strings: ["Django", "React", "Docker", "Postgres", "Linux", "Rest Api"]
     });
   });
 
@@ -32,10 +32,7 @@ const Home: React.FunctionComponent = () => {
             <FontAwesomeIcon className="circle" icon={faLinkedin} />
           </a>
         </div>
-        
-
       </div>
-
     </section>
   );
 };

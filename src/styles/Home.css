@@ -11,7 +11,7 @@
 
 .home-signs {
     position: relative;
-    top: -12%;
+    top: -30px;
     color: steelblue;
     text-align: center;
 }
@@ -46,6 +46,7 @@
 
 .svg-inline--fa:hover {
     transform: scale(1.05);
+    color:steelblue;
 }
 
 .circle {
