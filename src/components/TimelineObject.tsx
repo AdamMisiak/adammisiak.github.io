@@ -6,10 +6,12 @@ interface TimelineObjectProps {
     date: string;
     title: string;
     text: string;
+    time: string;
 }
 
 const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: TimelineObjectProps) => {
     return (
+        // data-aos="fade-left" data-aos-delay={props.time}
     <li>
         <div className="timeline-content">
             <h2 className="timeline-date">{props.date}</h2>

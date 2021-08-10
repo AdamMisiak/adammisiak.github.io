@@ -8,28 +8,32 @@ const timelineObjects = [
     'date': 'May 2021 - present',
     'title': 'Junior Python Developer @ iMakeable',
     'text': "Technologies used: Python, Django, DRF, Postgres, Celery, Docker, Elasticsearch",
+    'time': '0',
   },
   {
     'date': 'October 2020 - present',
     'title': 'Junior Python Developer @ The BitByBit Company',
     'text': "Technologies used: Python, Django, DRF, Postgres, Docker",
+    'time': '200',
   },
   {
     'date': 'July 2019 - August 2020',
     'title': 'PLC Programmer @ Pesmel Poland',
     'text': "Duties: coding in C#/Unity, programming PLC in TIA Portal, preparing visualizations",
+    'time': '400',
   },
   {
     'date': 'October 2016 - February 2020',
     'title': 'Gdańsk University of Technology',
     'text': "Graduated with bachelor of engineering degree in Automatic Control and Robotics. Topic of my thesis was: Unmanned wheeled eletric vehicle. I was a part of student organisation SK SEP.",
+    'time': '600',
   },
 ]
 
 const AboutMe: React.FunctionComponent = () => {
   return (
     <section id="about-me">
-      <div data-aos="fade-left" data-aos-delay="1000" className="about-me-wrapper">
+      <div data-aos="fade-left" className="about-me-wrapper">
         <div className="about-me-text">
           <h1 className="about-me-title">About Me</h1>
           <p className="about-me-subtitle">Full-Stack Developer</p>
