@@ -24,7 +24,7 @@ const Home: React.FunctionComponent = () => {
           <p>Full-Stack Developer located in Gdańsk.</p>
           <p>Specialized in <span id="writer"></span></p>
         </div>
-        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000" className="home-icons">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000" className="home-icons">
           <a href="https://github.com/AdamMisiak" target="_blank" rel="noreferrer" className="home-icon-single">
             <FontAwesomeIcon className="circle" icon={faGithub} />
           </a>

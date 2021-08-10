@@ -49,7 +49,7 @@ const Services: React.FunctionComponent = () => {
       <div className="services-wrapper">
         <div className="services-sign">
           <h1>Services</h1>
-          <p>Things that I specilize in:</p>
+          <p>Things that I specialize in:</p>
         </div>
         <div className="services-list">
           {servicesObjects.map((object) => {

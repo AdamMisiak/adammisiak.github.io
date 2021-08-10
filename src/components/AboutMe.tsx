@@ -1,8 +1,5 @@
 import '../styles/AboutMe.css'
 
-import React, { useEffect } from "react";
-
-import Aos from 'aos';
 import TimelineObject from './TimelineObject';
 import avatar from '../static/avatar.jpg';
 
@@ -32,11 +29,11 @@ const timelineObjects = [
 const AboutMe: React.FunctionComponent = () => {
   return (
     <section id="about-me">
-      <div data-aos="flip-left" className="about-me-wrapper">
+      <div data-aos="fade-left" data-aos-delay="1000" className="about-me-wrapper">
         <div className="about-me-text">
           <h1 className="about-me-title">About Me</h1>
-          <p className="about-me-subtitle">Software Developer</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p className="about-me-subtitle">Full-Stack Developer</p>
+          <p>I am aspiring Full-Stuck Developer located in Gdańsk, Poland. I am specialized in Python with Django on backend and Javascript with React on frontend. I have one year of commercial experience and couple of projects created. I am easy-going, ambitious and open minded, I am also fast learner.</p>
         </div>
         <div className="about-me-photo-wrapper">
           <img className="about-me-photo" src={avatar} alt="Avatar"></img>
