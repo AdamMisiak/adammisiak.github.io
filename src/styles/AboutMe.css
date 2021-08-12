@@ -50,8 +50,149 @@
 }
 
 
-/* TIMELINE */
+
 .timeline-wrapper {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    background: #2B343A;
+    padding: 0 10%;
+    border-radius: 2px;
+}
+
+.timeline-wrapper::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.timeline-wrapper {
+    position: relative;
+    padding: 2em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25px;
+    height: 100%;
+    width: 4px;
+    background: steelblue;
+}
+.timeline-block {
+    position: relative;
+    margin: 2em 0;
+}
+.timeline-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.timeline-block:first-child {
+    margin-top: 0;
+}
+.timeline-block:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-orb {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px steelblue, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.timeline-orb {
+    background: rgb(53, 98, 136)
+}
+
+.timeline-content {
+    position: relative;
+    margin-left: 60px;
+    margin-right: 30px;
+    background: #333C42;
+    border-radius: 2px;
+    padding: 1em;
+}
+.timeline-content-info {
+      background: #2B343A;
+      padding: 5px 10px;
+      color: rgba(255,255,255,0.7);
+      font-size: 12px;
+      box-shadow:  inset 0 2px 0 rgba(0, 0, 0, 0.08);
+      border-radius: 2px;
+}
+.timeline-content-info i {
+    margin-right: 5px;
+}
+.timeline-content-info-title, .timeline-content-info-date {  
+    width: calc(50% - 2px);
+    display: inline-block;
+}
+
+.content-skills {
+    font-size: 12px;
+    padding:0;
+    margin-bottom: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content-skills li {
+      background: #40484D;
+      border-radius: 2px;
+      display: inline-block;
+      padding: 2px 10px;
+      color: rgba(255,255,255,0.7);
+      margin: 3px 2px;
+      text-align: center;
+      flex-grow: 1;
+}
+
+.timeline-content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .timeline-content h2 {
+    color: rgba(255,255,255,.9);
+    margin-top:0;
+    margin-bottom: 5px;
+  }
+  .timeline-content p, .timeline-content {
+    color: rgba(255,255,255,.7);
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  .timeline-content {
+    display: inline-block;
+  }
+  .timeline-content p {
+    margin: 1em 0;
+    line-height: 1.6;
+  }
+  
+  .timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid #333C42;
+  }
+  
+
+
+
+
+/* TIMELINE */
+/* .timeline-wrapper {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -101,11 +242,11 @@
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 2px;
-}
+} */
 
 @media only screen and (min-width: 1500px) {
     /* LINE */
-    .timeline-wrapper::before {
+    /* .timeline-wrapper::before {
         content: '';
         position: absolute;
         height: 100%;
@@ -129,14 +270,13 @@
     }
 
     .timeline-wrapper ul li:nth-child(even){
-        /* margin-right: 2.6rem; */
         float: right;
         clear: left;
         border-radius: 0px 20px 20px 20px;
-    } 
+    }  */
 
     /* ORB */
-    .timeline-wrapper ul li::before {
+    /* .timeline-wrapper ul li::before {
         content: '';
         position: absolute;
         height: 25px;
@@ -165,8 +305,8 @@
     .timeline-date {
         position: absolute;
         top: -30px;
-    }
-}
+    } */
+} 
 
 
 @media only screen and (max-width: 1499px) {
@@ -180,7 +320,7 @@
         justify-content: center;
     }
 
-    .timeline-wrapper::before {
+    /* .timeline-wrapper::before {
         content: '';
         position: absolute;
         height: 100%;
@@ -218,5 +358,5 @@
     .timeline-date {
         position: absolute;
         top: -30px;
-    }
+    } */
 }
