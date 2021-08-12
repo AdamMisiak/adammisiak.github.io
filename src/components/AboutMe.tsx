@@ -95,6 +95,58 @@ const AboutMe: React.FunctionComponent = () => {
             </ul>
           </div>
         </div>
+
+        <div className="timeline-block">
+          <div className="timeline-orb">
+			    </div>
+          <div className="timeline-content">
+            <h2>Penta Consulting</h2>
+            <div className="timeline-content-info">
+              <span className="timeline-content-info-title">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                Front End Developer
+              </span>
+              <span className="timeline-content-info-date">
+                <i className="fa fa-calendar-o" aria-hidden="true"></i>
+                June 2016 - Present
+              </span>
+            </div>
+            <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+            <ul className="content-skills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Wordpress</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="timeline-block">
+          <div className="timeline-orb">
+			    </div>
+          <div className="timeline-content">
+            <h2>Penta Consulting</h2>
+            <div className="timeline-content-info">
+              <span className="timeline-content-info-title">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                Front End Developer
+              </span>
+              <span className="timeline-content-info-date">
+                <i className="fa fa-calendar-o" aria-hidden="true"></i>
+                June 2016 - Present
+              </span>
+            </div>
+            <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+            <ul className="content-skills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Wordpress</li>
+            </ul>
+          </div>
+        </div>
         
         {/* <ul>
           {timelineObjects.map((object) => {
