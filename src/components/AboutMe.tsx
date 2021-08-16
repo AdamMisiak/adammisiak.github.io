@@ -1,5 +1,7 @@
 import '../styles/AboutMe.css'
 
+import { Calendar } from '@styled-icons/boxicons-regular/Calendar';
+import { Server } from '@styled-icons/boxicons-regular/Server';
 import TimelineObject from './TimelineObject';
 import avatar from '../static/avatar.jpg';
 
@@ -51,16 +53,16 @@ const AboutMe: React.FunctionComponent = () => {
             <h2>Penta Consulting</h2>
             <div className="timeline-content-info">
               <span className="timeline-content-info-title">
-                <i className="fa fa-certificate" aria-hidden="true"></i>
-                Front End Developer
+                <Server size="16px"/>&nbsp;
+                Backend Developer
               </span>
               <span className="timeline-content-info-date">
-                <i className="fa fa-calendar-o" aria-hidden="true"></i>
+                <Calendar size="16px"/>&nbsp;
                 June 2016 - Present
               </span>
             </div>
             <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-            <ul className="content-skills">
+            <ul className="timeline-content-skills">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
@@ -86,7 +88,7 @@ const AboutMe: React.FunctionComponent = () => {
               </span>
             </div>
             <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-            <ul className="content-skills">
+            <ul className="timeline-content-skills">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
@@ -112,7 +114,7 @@ const AboutMe: React.FunctionComponent = () => {
               </span>
             </div>
             <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-            <ul className="content-skills">
+            <ul className="timeline-content-skills">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
@@ -138,7 +140,7 @@ const AboutMe: React.FunctionComponent = () => {
               </span>
             </div>
             <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-            <ul className="content-skills">
+            <ul className="timeline-content-skills">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
