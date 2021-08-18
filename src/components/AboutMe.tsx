@@ -5,6 +5,7 @@ import avatar from '../static/avatar.jpg';
 
 const timelineObjects = [
   {
+    'id': 1,
     'title': 'Junior Python Developer',
     'icon': 'company',
     'company': 'iMakeable', 
@@ -14,6 +15,7 @@ const timelineObjects = [
     'animationDelay': '0',
   },
   {
+    'id': 2,
     'title': 'Junior Python Developer',
     'icon': 'company',
     'company': 'The BitByBit Company',
@@ -23,6 +25,7 @@ const timelineObjects = [
     'animationDelay': '100',
   },
   {
+    'id': 3,
     'title': 'PLC Programmer',
     'icon': 'company',
     'company': 'Pesmel Poland',
@@ -32,6 +35,7 @@ const timelineObjects = [
     'animationDelay': '100',
   },
   {
+    'id': 4,
     'title': 'Student',
     'icon': 'university',
     'company': 'Gdańsk University of Technology',

@@ -6,6 +6,7 @@ import React from "react";
 import { University } from '@styled-icons/fa-solid/University';
 
 interface TimelineObjectProps {
+    id: number;
     title: string;
     icon: string,
     company: string,
@@ -17,7 +18,7 @@ interface TimelineObjectProps {
 
 const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: TimelineObjectProps) => {
     return (
-      <div className="timeline-block">
+      <div key={props.id} className="timeline-block">
         <div className="timeline-orb"></div>
         <div data-aos="fade-left" data-aos-delay={props.animationDelay} className="timeline-content">
           <h2>{props.title}</h2>
@@ -42,8 +43,8 @@ const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: Tim
           </div>
           <p>{props.text}</p>
           <ul className="timeline-content-skills">
-            {props.technologies.map((obj) => (
-              <li>{obj}</li>
+            {props.technologies.map((obj, index) => (
+              <li key={index}>{obj}</li>
             ))}
           </ul>
         </div>
