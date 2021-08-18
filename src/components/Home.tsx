@@ -26,10 +26,10 @@ const Home: React.FunctionComponent = () => {
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000" className="home-icons">
           <a href="https://github.com/AdamMisiak" target="_blank" rel="noreferrer" className="home-icon-single">
-            <FontAwesomeIcon className="circle" icon={faGithub} />
+            <FontAwesomeIcon className="circle-small" icon={faGithub} />
           </a>
           <a href="https://www.linkedin.com/in/adammisiak/" target="_blank" rel="noreferrer" className="home-icon-single">
-            <FontAwesomeIcon className="circle" icon={faLinkedin} />
+            <FontAwesomeIcon className="circle-small" icon={faLinkedin} />
           </a>
         </div>
       </div>

@@ -1,45 +1,45 @@
 import '../styles/Services.css'
 
+import { Communication } from '@styled-icons/fluentui-system-filled/Communication'
+import { Database } from '@styled-icons/octicons/Database'
+import { Gear } from '@styled-icons/octicons/Gear'
 import React from "react";
+import { ScreenShare } from '@styled-icons/material-outlined/ScreenShare'
+import { Server } from '@styled-icons/boxicons-regular/Server'
 import ServiceObject from './ServiceObject';
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
-// import { faCubes } from '@fortawesome/free-solid-svg-icons'
+import { TaskListLtr } from '@styled-icons/fluentui-system-regular/TaskListLtr'
 
 const Services: React.FunctionComponent = () => {
   const servicesObjects = [
     {
+      'id': 1,
       'title': 'Frontend Development',
-      // <FontAwesomeIcon className="circle" icon={faCubes} />
-      'image': '',
-      'text': 'Creating frontend for apps',
+      'image': <ScreenShare size="35px"/>,
     },
     {
+      'id': 2,
       'title': 'Backend Development',
-      'image': '',
-      'text': '',
+      'image': <Server size="35px"/>,
     },
     {
+      'id': 3,
       'title': 'Software Testing',
-      'image': '',
-      'text': '',
+      'image': <TaskListLtr size="35px"/>,
     },
     {
+      'id': 4,
       'title': 'Script Automation',
-      'image': '',
-      'text': '',
+      'image': <Gear size="35px"/>,
     },
     {
+      'id': 5,
       'title': 'Database Desigining',
-      'image': '',
-      'text': '',
+      'image': <Database size="35px"/>,
     },
     {
+      'id': 6,
       'title': 'Query Optimization',
-      'image': '',
-      'text': '',
+      'image': <Communication size="35px"/>,
     },
 
   ]

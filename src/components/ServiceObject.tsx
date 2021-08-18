@@ -3,16 +3,18 @@ import '../styles/Services.css'
 import React from "react";
 
 interface ServiceObjectProps {
+    id: number;
     title: string;
-    image: string;
-    text: string;
+    image: any;
 }
 
 const ServiceObject: React.FunctionComponent<ServiceObjectProps> = (props: ServiceObjectProps) => {
     return (
-      <div className="services-element">
+      <div key={props.id} className="services-element">
+        <div className="services-element-icon circle-medium">
+          {props.image}
+        </div>
         <h1>{props.title}</h1>
-        <p>{props.text}</p>
       </div>
     );
 };
