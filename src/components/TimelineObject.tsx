@@ -1,13 +1,13 @@
 import '../styles/AboutMe.css'
 
+import { Building } from '@styled-icons/bootstrap/Building';
 import { Calendar } from '@styled-icons/boxicons-regular/Calendar';
 import React from "react";
-import { Server } from '@styled-icons/boxicons-regular/Server';
-import {StyledIcon} from '@styled-icons/styled-icon'
+import { University } from '@styled-icons/fa-solid/University';
 
 interface TimelineObjectProps {
     title: string;
-    icon: StyledIcon,
+    icon: string,
     company: string,
     date: string;
     text: string;
@@ -23,8 +23,17 @@ const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: Tim
           <h2>{props.title}</h2>
           <div className="timeline-content-info">
             <span className="timeline-content-info-title">
-              <Server size="16px"/>&nbsp;
-              {props.company}
+              {props.icon === 'company' ? (
+                <div>
+                  <Building size="15.5px"/>&nbsp;
+                  {props.company}
+                </div>
+              ) : (
+                <div>
+                  <University size="16px"/>&nbsp;
+                  {props.company}
+                </div>
+              )}
             </span>
             <span className="timeline-content-info-date">
               <Calendar size="16px"/>&nbsp;

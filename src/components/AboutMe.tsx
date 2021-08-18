@@ -1,41 +1,39 @@
 import '../styles/AboutMe.css'
 
-import { Building } from '@styled-icons/bootstrap/Building';
 import TimelineObject from './TimelineObject';
-import { University } from '@styled-icons/fa-solid/University';
 import avatar from '../static/avatar.jpg';
 
 const timelineObjects = [
   {
     'title': 'Junior Python Developer',
-    'icon': Building,
+    'icon': 'company',
     'company': 'iMakeable', 
     'date': 'May 2021 - present',
-    'text': 'I was involved into social media app. Worked with frontend developer and DevOps. ',
+    'text': 'I was involved into social media app. Worked with frontend developer and DevOps.',
     'technologies': ['Python', 'Django', 'DRF', 'Postgres', 'Docker'],
     'animationDelay': '0',
   },
   {
     'title': 'Junior Python Developer',
-    'icon': Building,
+    'icon': 'company',
     'company': 'The BitByBit Company',
     'date': 'October 2020 - present',
-    'text': "Technologies used: Python, Django, DRF, Postgres, Docker",
+    'text': 'Took part in creating doctors app and automation hardware app. Worked with team of developers (frontend, backend, testers and PM). ',
     'technologies': ['Python', 'Django', 'DRF', 'Postgres', 'Celery', 'Docker', 'Elasticsearch'],
     'animationDelay': '100',
   },
   {
     'title': 'PLC Programmer',
-    'icon': Building,
+    'icon': 'company',
     'company': 'Pesmel Poland',
     'date': 'July 2019 - August 2020',
-    'text': "Duties: coding in C#/Unity, programming PLC in TIA Portal, preparing visualizations",
+    'text': 'My tasks was to create simulation in C#/Unity and logic for automatic line. I was in team full of engineers. I used TIA Portal for programming PLC',
     'technologies': ['PLC', 'C#', 'Unity', 'SCADA'],
     'animationDelay': '100',
   },
   {
     'title': 'Student',
-    'icon': University,
+    'icon': 'university',
     'company': 'Gdańsk University of Technology',
     'date': 'October 2016 - February 2020',
     'text': "Graduated with bachelor of engineering degree in Automatic Control and Robotics. Topic of my thesis was: Unmanned wheeled eletric vehicle. I was a part of student organisation SK SEP.",
