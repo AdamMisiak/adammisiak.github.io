@@ -6,11 +6,13 @@ interface ServiceObjectProps {
     id: number;
     title: string;
     image: any;
+    site: string;
 }
 
 const ServiceObject: React.FunctionComponent<ServiceObjectProps> = (props: ServiceObjectProps) => {
     return (
-      <div key={props.id} className="services-element">
+      <div data-aos="fade-left" key={props.id} className="services-element">
+        {/* Add if to data-aos attribute */}
         <div className="services-element-icon circle-medium">
           {props.image}
         </div>

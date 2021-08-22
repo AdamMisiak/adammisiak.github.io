@@ -15,31 +15,37 @@ const Services: React.FunctionComponent = () => {
       'id': 1,
       'title': 'Frontend Development',
       'image': <ScreenShare size="35px"/>,
+      'site': 'left',
     },
     {
       'id': 2,
       'title': 'Backend Development',
       'image': <Server size="35px"/>,
+      'site': 'left',
     },
     {
       'id': 3,
       'title': 'Software Testing',
       'image': <TaskListLtr size="35px"/>,
+      'site': 'left',
     },
     {
       'id': 4,
       'title': 'Script Automation',
       'image': <Gear size="35px"/>,
+      'site': 'right',
     },
     {
       'id': 5,
       'title': 'Database Desigining',
       'image': <Database size="35px"/>,
+      'site': 'right',
     },
     {
       'id': 6,
       'title': 'Query Optimization',
       'image': <Communication size="35px"/>,
+      'site': 'right',
     },
 
   ]
