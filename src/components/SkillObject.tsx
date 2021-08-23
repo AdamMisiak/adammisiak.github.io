@@ -11,7 +11,7 @@ interface SkillObjectProps {
 
 const ServiceObject: React.FunctionComponent<SkillObjectProps> = (props: SkillObjectProps) => {
     return (
-      <div className={"skills-element " + (props.name)}>
+      <div data-aos="flip-up" data-aos-duration="1500" className={"skills-element " + (props.name)}>
         {props.icon}
       </div>
     );

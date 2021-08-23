@@ -14,13 +14,20 @@ interface TimelineObjectProps {
     text: string;
     technologies: string[];
     animationDelay: string;
+    site: string;
 }
 
 const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: TimelineObjectProps) => {
+    let animation = ""
+    if (props.site === "left") {
+      animation = "fade-left"
+    } else {
+      animation = "fade-right"
+    }
     return (
       <div key={props.id} className="timeline-block">
         <div className="timeline-orb"></div>
-        <div data-aos="fade-left" data-aos-delay={props.animationDelay} className="timeline-content">
+        <div data-aos={animation} data-aos-delay={props.animationDelay} className="timeline-content">
           <h2>{props.title}</h2>
           <div className="timeline-content-info">
             <span className="timeline-content-info-title">

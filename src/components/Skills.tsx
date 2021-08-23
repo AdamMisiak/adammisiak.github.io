@@ -75,6 +75,7 @@ const Skills: React.FunctionComponent = () => {
       <div className="skills-wrapper">
         <div className="skills-sign">
           <h1>Skills</h1>
+          <p>Technologies I have worked with:</p>
         </div>
         <div className="skills-list">
            {icons.map((object) => {

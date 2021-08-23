@@ -13,6 +13,7 @@ const timelineObjects = [
     'text': 'I was involved into social media app. Worked with frontend developer and DevOps.',
     'technologies': ['Python', 'Django', 'DRF', 'Postgres', 'Docker'],
     'animationDelay': '0',
+    'site': 'right',
   },
   {
     'id': 2,
@@ -23,6 +24,7 @@ const timelineObjects = [
     'text': 'Took part in creating doctors app and automation hardware app. Worked with team of developers (frontend, backend, testers and PM). ',
     'technologies': ['Python', 'Django', 'DRF', 'Postgres', 'Celery', 'Docker', 'Elasticsearch'],
     'animationDelay': '100',
+    'site': 'left',
   },
   {
     'id': 3,
@@ -33,6 +35,7 @@ const timelineObjects = [
     'text': 'My tasks was to create simulation in C#/Unity and logic for automatic line. I was in team full of engineers. I used TIA Portal for programming PLC',
     'technologies': ['PLC', 'C#', 'Unity', 'SCADA'],
     'animationDelay': '100',
+    'site': 'right',
   },
   {
     'id': 4,
@@ -43,6 +46,7 @@ const timelineObjects = [
     'text': "Graduated with bachelor of engineering degree in Automatic Control and Robotics. Topic of my thesis was: Unmanned wheeled eletric vehicle. I was a part of student organisation SK SEP.",
     'technologies': ['PLC', 'SCADA', 'Automation'],
     'animationDelay': '100',
+    'site': 'left',
   },
 ]
 
