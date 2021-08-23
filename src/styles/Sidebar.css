@@ -54,6 +54,8 @@
     transition: width .3s;
 }
 
-
-
-     
+@media only screen and (max-width: 1024px) {
+    .sidebar-wrapper {
+        display: none;
+    }
+}

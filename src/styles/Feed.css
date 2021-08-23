@@ -9,3 +9,10 @@
     padding: 0 16.8rem;
     /* overflow: auto; */
 }
+
+@media only screen and (max-width: 1024px) {
+    .feed-wrapper {
+        padding: 0 4rem;
+        /* overflow-x: hidden; */
+    }
+}
