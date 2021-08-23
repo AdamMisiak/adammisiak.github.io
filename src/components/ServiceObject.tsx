@@ -10,9 +10,14 @@ interface ServiceObjectProps {
 }
 
 const ServiceObject: React.FunctionComponent<ServiceObjectProps> = (props: ServiceObjectProps) => {
+    let animation = ""
+    if (props.site === "left") {
+      animation = "fade-left"
+    } else {
+      animation = "fade-right"
+    }
     return (
-      <div data-aos="fade-left" key={props.id} className="services-element">
-        {/* Add if to data-aos attribute */}
+      <div data-aos={animation} key={props.id} className="services-element">
         <div className="services-element-icon circle-medium">
           {props.image}
         </div>
