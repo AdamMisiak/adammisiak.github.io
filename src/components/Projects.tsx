@@ -36,6 +36,7 @@ const Projects: React.FunctionComponent = () => {
       <div className="projects-wrapper">
         <div className="projects-sign">
           <h1>Projects</h1>
+          <p>Projects I have already created:</p>
         </div>
         <div className="projects-list">
           {projectsObjects.map((object) => {
