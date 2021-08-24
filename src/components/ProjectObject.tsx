@@ -10,7 +10,7 @@ interface ProjectObjectProps {
 
 const ProjectObject: React.FunctionComponent<ProjectObjectProps> = (props: ProjectObjectProps) => {
     return (
-      <div className="projects-element">
+      <div data-aos="fade-up" className="projects-element">
         <a href={props.link} target="_blank" rel="noreferrer">
           <div className="projects-photo-wrapper">
               <img className="projects-photo" src={props.image} alt={props.title}></img>
