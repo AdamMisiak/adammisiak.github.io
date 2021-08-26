@@ -1,4 +1,4 @@
-.feed-wrapper {
+#feed-wrapper {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -8,10 +8,11 @@
     left: 0;
     padding: 0 16.8rem;
     /* overflow: auto; */
+    z-index: 1;
 }
 
 @media only screen and (max-width: 1024px) {
-    .feed-wrapper {
+    #feed-wrapper {
         padding: 0 4rem;
         /* overflow-x: hidden; */
     }

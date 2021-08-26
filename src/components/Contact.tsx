@@ -23,8 +23,8 @@ const Contact: React.FunctionComponent = () => {
         </div>
         <div className="contact-rights">
           <p className="contact-subtitle">
-            © Copyright {new Date().getFullYear()}, Adam Misiak. All Rights Reserved. <br></br>
-            Contact me at adammisiak3@gmail.com
+            © No Copyrights, feel free to use this template, Adam Misiak <br></br>
+            If you have any questions, contact me at adammisiak3@gmail.com
           </p>
         </div>
       </div>
