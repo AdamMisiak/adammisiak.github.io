@@ -18,10 +18,12 @@ const ServiceObject: React.FunctionComponent<ServiceObjectProps> = (props: Servi
     }
     return (
       <div data-aos={animation} key={props.id} className="services-element">
-        <div className="services-element-icon circle-medium">
-          {props.image}
+        <div className="services-element-wrapper">
+          <div className="services-element-icon circle-medium">
+            {props.image}
+          </div>
+          <h1>{props.title}</h1>
         </div>
-        <h1>{props.title}</h1>
       </div>
     );
 };

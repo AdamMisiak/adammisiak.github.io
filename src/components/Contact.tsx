@@ -23,7 +23,7 @@ const Contact: React.FunctionComponent = () => {
         </div>
         <div className="contact-rights">
           <p className="contact-subtitle">
-            © No Copyrights, feel free to use this template, Adam Misiak <br></br>
+            © No Copyrights, feel free to use this template <br></br>
             If you have any questions, contact me at adammisiak3@gmail.com
           </p>
         </div>
