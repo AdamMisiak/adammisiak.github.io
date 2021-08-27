@@ -41,7 +41,6 @@ const Services: React.FunctionComponent = () => {
       'title': 'Query Optimization',
       'image': <Communication size="35px"/>,
     },
-
   ]
   
   return (
