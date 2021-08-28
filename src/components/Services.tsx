@@ -52,7 +52,7 @@ const Services: React.FunctionComponent = () => {
         </div>
         <div className="services-list">
           {servicesObjects.map((object) => {
-            return <ServiceObject {...object} />
+            return <ServiceObject key={object.id} {...object} />
           })}
         </div>
       </div>

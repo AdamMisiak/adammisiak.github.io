@@ -10,21 +10,25 @@ import to_do_list from '../static/to_do_list.jpg';
 const Projects: React.FunctionComponent = () => {
   const projectsObjects = [
     {
+      'id': 1,
       'title': 'Blogs Manager',
       'image': blogs_manager,
       'link': "https://github.com/AdamMisiak/Blogs_manager",
     },
     {
+      'id': 2,
       'title': 'To Do List',
       'image': to_do_list,
       'link': "https://github.com/AdamMisiak/To_do_list",
     },
     {
+      'id': 3,
       'title': 'Tic Tac Toe',
       'image': tic_tac_toe_game,
       'link': "https://github.com/AdamMisiak/Tic_tac_toe_game",
     },
     {
+      'id': 4,
       'title': 'Exchange rates calculator',
       'image': exchange_rates_calculator,
       'link': "https://github.com/AdamMisiak/Exchange_rates_calculator",
@@ -40,7 +44,7 @@ const Projects: React.FunctionComponent = () => {
         </div>
         <div className="projects-list">
           {projectsObjects.map((object) => {
-            return <ProjectObject {...object} />
+            return <ProjectObject key={object.id} {...object} />
           })}
         </div>
       </div>

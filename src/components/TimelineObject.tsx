@@ -25,7 +25,7 @@ const TimelineObject: React.FunctionComponent<TimelineObjectProps> = (props: Tim
       animation = "fade-right"
     }
     return (
-      <div key={props.id} className="timeline-block">
+      <div className="timeline-block">
         <div className="timeline-orb"></div>
         <div data-aos={animation} data-aos-delay={props.animationDelay} className="timeline-content">
           <h2>{props.title}</h2>

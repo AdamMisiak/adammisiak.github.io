@@ -1,6 +1,6 @@
 import '../styles/Sidebar.css'
 
-import React, { useEffect } from "react";
+import React from "react";
 
 const Sidebar: React.FunctionComponent = () => {
   const sidebarObjects = [
@@ -42,22 +42,14 @@ const Sidebar: React.FunctionComponent = () => {
     },
 
   ]
-  useEffect(() => {
-    window.addEventListener('scroll', checkSidebarPosition);
-  }, [])
-
-  const checkSidebarPosition = () => {
-    console.log(window.pageYOffset)
-  }
-
   return (
     <section id="sidebar">
       <div className="sidebar-wrapper">
         <nav>
           <ul>
             {sidebarObjects.map((object) => {
-              return <li><a 
-                key={object.id} 
+              return <li key={object.id}><a 
+                id={object.href}
                 data-aos="fade-right" 
                 data-aos-duration={object.duration} 
                 href={object.href}

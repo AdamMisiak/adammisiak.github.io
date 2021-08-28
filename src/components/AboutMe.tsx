@@ -65,7 +65,7 @@ const AboutMe: React.FunctionComponent = () => {
       </div>
       <div className="timeline-wrapper">
         {timelineObjects.map((object) => {
-          return <TimelineObject {...object} />
+          return <TimelineObject key={object.id} {...object} />
         })}
       </div>
     </section>
