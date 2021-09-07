@@ -52,3 +52,24 @@
     padding: 1.2rem 1.2rem;
     width: 2.5rem !important;
 }
+
+@media only screen and (max-width: 520px) {
+    #services {
+        padding: 2rem;
+    }
+    
+    .services-element {
+        margin: 2rem;
+        padding: 2rem;
+        width: 250px;
+    }
+    
+    .services-element h1 {
+        font-size: 25px;
+    }
+    
+    .circle-medium {
+        padding: 1rem 1rem;
+        width: 2.2rem !important;
+    }
+}
