@@ -56,3 +56,36 @@
     padding: 0.5em 0.6em;
     width: 1.4rem !important;
 }
+
+@media only screen and (max-width: 520px) {
+    #home {
+        padding: 2rem;
+    }
+    
+    .home-signs {
+        top: -20px;
+        color: steelblue;
+        text-align: center;
+    }
+    
+    .home-signs > h1 {
+        font-size: 40px;
+    }
+    
+    .home-signs > p {
+        font-size: 20px;
+    }
+    
+    .home-icons {
+        height: 35px;
+    }
+    
+    .home-icon-single {
+        padding: 5px;
+    }
+    
+    .circle-small {
+        padding: 0.45em 0.55em;
+        width: 1.1rem !important;
+    }
+}
