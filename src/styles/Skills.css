@@ -91,3 +91,15 @@
 .heroku:hover {
     color: #6762A6;
 }
+
+@media only screen and (max-width: 690px) {
+    #skills {
+        padding: 2rem;
+    }
+
+    .skills-element {
+        margin: 0.8rem;
+        padding: 0.8rem;
+        width: 120px;
+    }
+}

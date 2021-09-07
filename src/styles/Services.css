@@ -53,7 +53,7 @@
     width: 2.5rem !important;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 690px) {
     #services {
         padding: 2rem;
     }

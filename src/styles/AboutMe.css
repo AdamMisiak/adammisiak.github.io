@@ -232,8 +232,7 @@
     }
 }
 
-
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 690px) {
     /* DESCRIPTION */
     #about-me {
         padding: 2rem;

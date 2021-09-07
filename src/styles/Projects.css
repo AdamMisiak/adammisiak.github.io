@@ -67,3 +67,21 @@
 .projects-element h1{
     font-size: 20px;
 }
+
+@media only screen and (max-width: 690px) {
+    #projects {
+        padding: 2rem;
+    }
+    
+    .projects-element {
+        margin: 1.8rem;
+    }
+    
+    .projects-text-wrapper {
+        padding: 2.5px;
+    }
+    
+    .projects-element h1{
+        font-size: 15px;
+    }
+}
