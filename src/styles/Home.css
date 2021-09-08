@@ -60,6 +60,7 @@
 @media only screen and (max-width: 690px) {
     #home {
         padding: 2rem;
+        overflow-x: hidden; 
     }
     
     .home-signs {

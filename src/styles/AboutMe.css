@@ -236,6 +236,7 @@
     /* DESCRIPTION */
     #about-me {
         padding: 2rem;
+        overflow-x: hidden; 
     }
 
     .about-me-title {

@@ -57,7 +57,7 @@ const AboutMe: React.FunctionComponent = () => {
         <div className="about-me-text">
           <h1 className="about-me-title">About Me</h1>
           <p className="about-me-subtitle">Full-Stack Developer</p>
-          <p>I am aspiring Full-Stuck Developer located in Gdańsk, Poland. I am specialized in Python with Django on backend and Javascript with React on frontend. I have one year of commercial experience and couple of projects created. I am easy-going, ambitious and open minded, I am also fast learner.</p>
+          <p>I am aspiring Full-Stack Developer located in Gdańsk, Poland. I am specialized in Python with Django on backend and Javascript with React on frontend. I have one year of commercial experience and couple of projects created. I am easy-going, ambitious and open minded, I am also fast learner.</p>
         </div>
         <div className="about-me-photo-wrapper">
           <img className="about-me-photo" src={avatar} alt="Avatar"></img>
