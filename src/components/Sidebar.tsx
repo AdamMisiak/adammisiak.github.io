@@ -1,5 +1,6 @@
 import '../styles/Sidebar.css'
 
+import Burger from './Burger';
 import React from "react";
 
 const Sidebar: React.FunctionComponent = () => {
@@ -46,6 +47,7 @@ const Sidebar: React.FunctionComponent = () => {
     <section id="sidebar">
       <div className="sidebar-wrapper">
         <nav>
+          <Burger />
           <ul>
             {sidebarObjects.map((object) => {
               return <li key={object.id}><a 
