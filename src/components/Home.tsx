@@ -20,7 +20,7 @@ const Home: React.FunctionComponent = () => {
     <section id="home">
       <div className="home-wrapper">
         <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" className="home-signs">
-          <h1>I am Adam Misiak</h1>
+          <h1>I'm Adam Misiak</h1>
           <p>Full-Stack Developer located in Gdańsk.</p>
           <p>Specialized in <span id="writer"></span></p>
         </div>
