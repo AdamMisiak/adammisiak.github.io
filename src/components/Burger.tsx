@@ -1,12 +1,16 @@
 import '../styles/Burger.css'
 
-import React, { useState } from "react";
+import React from "react";
 
-const Burger:React.FunctionComponent = () => {
-    const [open, setOpen] = useState(false);
+interface BurgerProps {
+    sidebar: boolean;
+    sendDataToParent: (state: boolean) => void;
+}
+
+const Burger:React.FunctionComponent<BurgerProps> = ({ sidebar, sendDataToParent }) => {
 
     return (
-        <div onClick={() => setOpen(!open)} className={"burger-wrapper " + (open ? "open" : "")}>
+        <div onClick={() => sendDataToParent(!sidebar)} className={"burger-wrapper " + (!sidebar ? "exit" : "")}>
             <div />
             <div />
             <div />

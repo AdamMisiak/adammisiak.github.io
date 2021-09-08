@@ -56,12 +56,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .sidebar-wrapper {
+    .hidden {
         width: 0;
         padding: 0;
         transition: width 0.3s linear;
     }
-    .sidebar-wrapper nav > ul {
+
+    .hidden nav > ul {
         display: none;
     }
 }

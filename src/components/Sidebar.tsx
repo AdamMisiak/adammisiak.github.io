@@ -1,7 +1,8 @@
 import '../styles/Sidebar.css'
 
+import React, { useState } from "react";
+
 import Burger from './Burger';
-import React from "react";
 
 const Sidebar: React.FunctionComponent = () => {
   const sidebarObjects = [
@@ -41,13 +42,21 @@ const Sidebar: React.FunctionComponent = () => {
       'href': '#contact',
       'duration': 1750
     },
-
   ]
+  
+  const [sidebar, setSidebar] = useState(false);
+  const sendDataToParent = (state: boolean) => {
+    setSidebar(state);
+  };
+
   return (
     <section id="sidebar">
-      <div className="sidebar-wrapper">
+      <div className={"sidebar-wrapper " + (sidebar ? "hidden" : "")}>
         <nav>
-          <Burger />
+          <Burger
+            sidebar={sidebar}
+            sendDataToParent={sendDataToParent}
+          />
           <ul>
             {sidebarObjects.map((object) => {
               return <li key={object.id}><a 
