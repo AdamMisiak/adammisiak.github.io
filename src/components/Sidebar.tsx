@@ -1,6 +1,6 @@
 import '../styles/Sidebar.css'
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Burger from './Burger';
 
@@ -44,10 +44,18 @@ const Sidebar: React.FunctionComponent = () => {
     },
   ]
   
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(true);
   const sendDataToParent = (state: boolean) => {
     setSidebar(state);
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+        if (!sidebar) {
+          setSidebar(!sidebar)
+        }
+    });
+  }, [sidebar]);
 
   return (
     <section id="sidebar">
