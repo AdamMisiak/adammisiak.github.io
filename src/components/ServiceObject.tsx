@@ -10,7 +10,7 @@ interface ServiceObjectProps {
 
 const ServiceObject: React.FunctionComponent<ServiceObjectProps> = (props: ServiceObjectProps) => {
     return (
-      <div data-aos="fade-left" className="services-element">
+      <div data-aos="fade-left" data-aos-delay="200" className="services-element">
         <div className="services-element-wrapper">
           <div className="services-element-icon circle-medium">
             {props.image}

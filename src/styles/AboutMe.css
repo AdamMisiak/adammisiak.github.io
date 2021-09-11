@@ -106,7 +106,6 @@
 
 .timeline-content {
     position: relative;
-    /* tylko dla malego ekranu te marginy */
     margin-left: 60px;
     margin-right: 30px;
     background: #9d9fa1ef;
