@@ -1,6 +1,6 @@
 import '../styles/Burger.css'
 
-import React, { useEffect } from 'react';
+import React from 'react';
 
 interface BurgerProps {
     sidebar: boolean;
