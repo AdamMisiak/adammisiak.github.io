@@ -94,7 +94,7 @@
 
 /* ORB */
 .timeline-orb {
-    background: rgb(53, 98, 136);
+    background: rgb(57, 116, 163);
     position: absolute;
     top: 8px;
     left: 12px;
@@ -108,7 +108,7 @@
     position: relative;
     margin-left: 60px;
     margin-right: 30px;
-    background: #9d9fa1ef;
+    background: #b8b7b7ef;
     border-radius: 1rem;
     padding: 1rem;
     min-width: 16rem;
@@ -119,6 +119,7 @@
     color: rgb(255, 255, 255);
     margin-top:0;
     margin-bottom: 15px;
+    font-size: 1.25rem;
 }
 
 .timeline-content p, .timeline-content {
@@ -137,7 +138,7 @@
     position: absolute;
     right: 100%;
     border: 7px solid transparent;
-    border-right: 7px solid #9d9fa1ef;
+    border-right: 7px solid #b8b7b7ef;
 }
 
 .timeline-content-info {
@@ -169,7 +170,7 @@
     justify-content: center;
 }
 .timeline-content-skills li {
-      background: #40484D;
+      background: #5a6268;
       border-radius: 0.2rem;
       display: inline-block;
       padding: 2px 10px;
@@ -189,12 +190,12 @@
     }
 
     .timeline-wrapper {
-      margin-top: 3rem;
-      margin-bottom: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .timeline-wrapper::before {
-      left: 50%;
-      margin-left: -2px;
+        left: 50%;
+        margin-left: -2px;
     }
 
     .timeline-block:nth-child(even) .timeline-content {
@@ -204,7 +205,7 @@
     .timeline-block:nth-child(even) .timeline-content::before {
         left: auto;
         border-color: transparent;
-        border-right-color: #9d9fa1ef;
+        border-right-color: #b8b7b7ef;
     }
     
     .timeline-orb {
@@ -220,7 +221,7 @@
         top: 24px;
         left: 100%;
         border-color: transparent;
-        border-left-color: #9d9fa1ef;
+        border-left-color: #b8b7b7ef;
     }
 
     .timeline-content {
