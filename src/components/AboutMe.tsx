@@ -6,6 +6,17 @@ import avatar from '../static/avatar.jpg';
 const timelineObjects = [
   {
     'id': 1,
+    'title': 'Python Developer',
+    'icon': 'company',
+    'company': 'OpsTalent', 
+    'date': 'December 2021 - present',
+    'text': 'Took part in creating ETL pipelines process. Worked with team of developers (backend, testers and PM).',
+    'technologies': ['Python', 'AWS', 'Redis'],
+    'animationDelay': '0',
+    'site': 'left',
+  },
+  {
+    'id': 2,
     'title': 'Junior Python Developer',
     'icon': 'company',
     'company': 'iMakeable', 
@@ -16,7 +27,7 @@ const timelineObjects = [
     'site': 'right',
   },
   {
-    'id': 2,
+    'id': 3,
     'title': 'Junior Python Developer',
     'icon': 'company',
     'company': 'The BitByBit Company',
@@ -27,7 +38,7 @@ const timelineObjects = [
     'site': 'left',
   },
   {
-    'id': 3,
+    'id': 4,
     'title': 'PLC Programmer',
     'icon': 'company',
     'company': 'Pesmel Poland',
@@ -38,7 +49,7 @@ const timelineObjects = [
     'site': 'right',
   },
   {
-    'id': 4,
+    'id': 5,
     'title': 'Student',
     'icon': 'university',
     'company': 'Gdańsk University of Technology',
