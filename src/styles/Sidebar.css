@@ -1,12 +1,11 @@
 .sidebar-wrapper {
     position: fixed;
-    /* float: left; */
     left: 0;
     top: 0;
     padding: 0 2.4rem 2.4rem 2.4rem;
     width: 12rem;
     height: 100%;
-    background: #9d9fa1ef;
+    background: #b8b7b7ef;
     text-align: right; 
     display: flex;
     flex-direction: column;
@@ -17,7 +16,6 @@
 
 .sidebar-wrapper nav > ul {
     list-style: none;
-    /* padding: 0; */
 }
 
 .sidebar-wrapper nav > ul > li {
@@ -27,7 +25,7 @@
 
 .sidebar-wrapper nav a {
     transition: color 0.5s ease;
-    color: steelblue;
+    color: rgb(255, 255, 255);
     display: inline-block;
     font-size: 0.75rem;
     font-weight: bold;
@@ -38,7 +36,7 @@
 }
 
 .sidebar-wrapper nav a:hover {
-    color: rgb(255, 255, 255);
+    color: steelblue
 } 
 
 .sidebar-wrapper nav a:after {
@@ -46,7 +44,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: white;
+    background: steelblue;
     transition: width .3s;
 }
 
@@ -55,7 +53,17 @@
     transition: width .3s;
 }
 
-@media only screen and (max-width: 1024px) {
+.hidden {
+    width: 0;
+    padding: 0;
+    transition: width 0.3s linear;
+}
+
+.hidden nav > ul {
+    display: none;
+}
+
+/* @media only screen and (max-width: 1024px) {
     .hidden {
         width: 0;
         padding: 0;
@@ -65,4 +73,4 @@
     .hidden nav > ul {
         display: none;
     }
-}
+} */

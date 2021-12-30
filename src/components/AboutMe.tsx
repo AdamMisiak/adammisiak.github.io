@@ -1,7 +1,7 @@
 import '../styles/AboutMe.css'
 
 import TimelineObject from './TimelineObject';
-import avatar from '../static/avatar.jpg';
+import avatar from '../static/avatar.png';
 
 const timelineObjects = [
   {

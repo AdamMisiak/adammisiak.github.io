@@ -1,16 +1,17 @@
 .burger-wrapper {
     display: flex;
-    width: 0;
     height: 2rem;
+    width: 2rem;
     position: fixed;
     top: 15px;
     left: 15px;
     justify-content: space-around;
     flex-flow: column nowrap;
+    cursor: pointer;
 }
 
 .burger-wrapper div {
-    width: 0;
+    width: 2rem;
     height: 0.25rem;
     background-color: steelblue;
     border-radius: 10px;
@@ -31,7 +32,7 @@
     transform: rotate(-45deg);
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
     .burger-wrapper {
         width: 2rem;
     }
@@ -39,4 +40,4 @@
     .burger-wrapper div{
         width: 2rem;
     }
-}
+} */
