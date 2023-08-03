@@ -70,9 +70,9 @@ const AboutMe: React.FunctionComponent = () => {
           <p className="about-me-subtitle">Full-Stack Developer</p>
           <p>I am Backend Developer aspiring to become also DevOps Engineer. Right now I am located in Gdańsk, Poland. I am specialized in Python with Django, AWS and Kubernetes. I have three years of commercial experience and couple of projects created. I am easy-going, ambitious and open minded, I am also fast learner.</p>
         </div>
-        <div className="about-me-photo-wrapper">
+        {/* <div className="about-me-photo-wrapper">
           <img className="about-me-photo" src={avatar} alt="Avatar"></img>
-        </div>
+        </div> */}
       </div>
       <div className="timeline-wrapper">
         {timelineObjects.map((object) => {
