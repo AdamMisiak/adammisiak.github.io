@@ -6,34 +6,34 @@ import avatar from '../static/avatar.png';
 const timelineObjects = [
   {
     'id': 1,
-    'title': 'Python Developer',
+    'title': 'Backend Developer',
     'icon': 'company',
     'company': 'OpsTalent', 
     'date': 'December 2021 - present',
-    'text': 'Took part in creating ETL pipelines process. Worked with team of developers (backend, testers and PM).',
-    'technologies': ['Python', 'AWS', 'Redis'],
+    'text': 'Took part in creating ETL pipelines and automation marketing campaigns app. Worked with team of developers (backend, testers and PM).',
+    'technologies': ['Python', 'AWS', 'GitlabCI', 'Kubernetes', 'Redis', 'Flask'],
     'animationDelay': '0',
     'site': 'left',
   },
   {
     'id': 2,
-    'title': 'Junior Python Developer',
+    'title': 'Backend Developer',
     'icon': 'company',
-    'company': 'iMakeable', 
-    'date': 'May 2021 - present',
-    'text': 'I was involved into social media app. Worked with frontend developer and DevOps.',
-    'technologies': ['Python', 'Django', 'DRF', 'Postgres', 'Docker'],
+    'company': 'The BitByBit Company',
+    'date': 'December 2021 - Novemeber 2022',
+    'text': 'Took part in creating doctors app and automation hardware app. Worked with team of developers (frontend, backend, testers and PM). ',
+    'technologies': ['Python', 'Django', 'DRF', 'Docker', 'PostgreSQL', 'Elasticsearch', 'Celery'],
     'animationDelay': '0',
     'site': 'right',
   },
   {
     'id': 3,
-    'title': 'Junior Python Developer',
+    'title': 'Junior Backend Developer',
     'icon': 'company',
     'company': 'The BitByBit Company',
-    'date': 'October 2020 - present',
+    'date': 'October 2020 - December 2021',
     'text': 'Took part in creating doctors app and automation hardware app. Worked with team of developers (frontend, backend, testers and PM). ',
-    'technologies': ['Python', 'Django', 'DRF', 'Postgres', 'Celery', 'Docker', 'Elasticsearch'],
+    'technologies': ['Python', 'Django', 'DRF', 'Docker', 'PostgreSQL', 'Elasticsearch', 'Celery'],
     'animationDelay': '100',
     'site': 'left',
   },
@@ -68,7 +68,7 @@ const AboutMe: React.FunctionComponent = () => {
         <div className="about-me-text">
           <h1 className="about-me-title">About Me</h1>
           <p className="about-me-subtitle">Full-Stack Developer</p>
-          <p>I am aspiring Full-Stack Developer located in Gdańsk, Poland. I am specialized in Python with Django on backend and Javascript with React on frontend. I have one year of commercial experience and couple of projects created. I am easy-going, ambitious and open minded, I am also fast learner.</p>
+          <p>I am Backend Developer aspiring to become also DevOps Engineer. Right now I am located in Gdańsk, Poland. I am specialized in Python with Django, AWS and Kubernetes. I have three years of commercial experience and couple of projects created. I am easy-going, ambitious and open minded, I am also fast learner.</p>
         </div>
         <div className="about-me-photo-wrapper">
           <img className="about-me-photo" src={avatar} alt="Avatar"></img>

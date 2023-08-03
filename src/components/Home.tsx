@@ -11,7 +11,7 @@ const Home: React.FunctionComponent = () => {
     const writer: any = document.querySelector("#writer");
     init(writer, {
       showCursor: true,
-      strings: ["React", "Django", "Docker", "Postgres", "Linux", "Rest Api"]
+      strings: ["Python", "Django", "AWS", "Docker", "Kubernetes", "REST Api"]
     });
   });
 
